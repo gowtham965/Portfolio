@@ -506,30 +506,7 @@ header.navbar nav a.nav-organic:focus-visible::after {
   }
 }
 
-/* Keyboard prefix overlay banner */
-#prefix-indicator {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: var(--claude-coral);
-  color: var(--claude-cream);
-  padding: 10px 20px;
-  border-radius: 6px;
-  font-size: 15px;
-  font-weight: bold;
-  z-index: 100;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-  border: 1px solid var(--claude-cream);
-  font-family: var(--mono);
-  pointer-events: none;
-  animation: pulse 1s infinite alternate;
-}
 
-@keyframes pulse {
-  from { opacity: 0.85; }
-  to { opacity: 1; }
-}
 
 /* Search Highlights */
 .search-highlight {

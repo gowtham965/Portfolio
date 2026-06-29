@@ -1,6 +1,6 @@
 function Navbar({ onFocusPane }) {
   const socialLinks = [
-    { label: "GitHub", url: "https://github.com/yourusername" },
+    { label: "GitHub", url: "https://github.com/gowtham965" },
     { label: "LinkedIn", url: "https://www.linkedin.com/in/gowthamgowda965/" },
     { label: "Email", url: "mailto:gouthamgowda965@gmail.com" },
   ];
