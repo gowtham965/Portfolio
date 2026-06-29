@@ -42,9 +42,6 @@ function AboutPane({ isActive, onFocus }) {
 
         <div className="section-title">Resumes</div>
         <div className="terminal-resumes-container">
-          <div className="terminal-cmd-line">
-            <span className="terminal-prompt">$</span> ls -la public/resumes/
-          </div>
           <div className="terminal-file-list">
             <div className="terminal-file-row">
               <span className="file-icon">📄</span>
