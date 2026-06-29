@@ -2,6 +2,8 @@
 
 A premium, interactive developer portfolio designed around the **Terminal Multiplexer (`tmux`)** layout. Built with **React**, **Vite**, and styled with custom glassmorphism and tactical retro-futuristic aesthetics.
 
+![Portfolio Screenshot](public/screenshot.png)
+
 ---
 
 ## 🚀 Key Features
