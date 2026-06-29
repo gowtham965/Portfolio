@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+  --claude-ink:       #191817;
+  --claude-ink-up:    #252321;
+  --claude-border:    #3b3a37;
+  --claude-divider:   #4a4845;
+  --claude-haze-dim:  #5c554d;
+  --claude-haze:      #8c847a;
+  --claude-mist:      #bfb8a5;
+  --claude-cream:     #f5f1e8;
+  --claude-coral:     #d97757;
+  --claude-sky:       #6e8eae;
+  --claude-moss:      #8a8f5d;
+  --claude-gold:      #d9af59;
+
+  --sans: 'JetBrains Mono', 'SF Mono', 'Monaco', ui-monospace, monospace;
+  --heading: 'Fraunces', ui-serif, Georgia, serif;
+  --mono: 'JetBrains Mono', 'SF Mono', 'Monaco', ui-monospace, monospace;
+
+  font-family: var(--sans);
+  color-scheme: dark;
+  color: var(--claude-mist);
+  background-color: var(--claude-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  background: var(--claude-ink);
+}
+
+body {
+  font-family: var(--sans);
+  overflow: hidden; /* Main window doesn't scroll, inner panes do */
+}
+
+a {
+  color: var(--claude-coral);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--claude-gold);
+}
+
+/* Scrollbar Customization for Terminal Feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--claude-ink);
+  border-left: 1px solid var(--claude-border);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--claude-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--claude-haze-dim);
+}
+
+/* Text highlight colors */
+::selection {
+  background: var(--claude-coral);
+  color: var(--claude-cream);
+}
