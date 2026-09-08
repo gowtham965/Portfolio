@@ -1,8 +1,7 @@
-const bioDesc = "I'm Gowtham R Gowda, an IT professional in Bengaluru with a B.Tech in Computer Science and Engineering (Data Science) from Presidency University. I work with Python, Java, JavaScript, and modern web technologies, and I'm actively preparing for graduate studies in the US focusing on cybersecurity and AI.";
+const bioDesc = "AI engineer who's built and deployed RAG and agentic systems from scratch, writing the retrieval pipeline, measuring answer quality, and fixing what broke in production. Six months of enterprise infrastructure training (Linux, networking, virtualization, cloud) adds a practical edge for field and on-site work. Open to travel and on-site/field deployment.";
 
 const experiences = [
-  { title: "MERN Full Stack Web Development Intern", location: "GeeksforGeeks · July 13, 2024 – Oct 6, 2024", desc: "Developed and deployed robust full-stack web applications using MongoDB, Express.js, React, and Node.js." },
-  { title: "Graduate Engineer Trainee", location: "Microland, Bengaluru · Aug 19, 2025 – Feb 19, 2026", desc: "Contributed to infrastructure, automation, and internal tools using Python and web technologies." }
+  { title: "Graduate Engineer Trainee", location: "Microland Limited, Bengaluru · June 2025 – Feb 2026", desc: "Completed an intensive technical training program covering Windows Server Administration, Networking (Routing & Switching), Virtualization, Linux Administration, Cybersecurity, and Cloud Fundamentals. Ranked among the top 5 of 50 trainees based on technical assessments." }
 ];
 
 const education = [
@@ -45,13 +44,6 @@ function AboutPane({ isActive, onFocus }) {
           <div className="terminal-file-list">
             <div className="terminal-file-row">
               <span className="file-icon">📄</span>
-              <a href="/resumes/ResumeA1.pdf" download="Gowtham_R_Gowda_Cybersecurity_Resume.pdf" className="file-link">
-                gowtham_cybersecurity.pdf
-              </a>
-              <span className="role-tag">[cybersecurity]</span>
-            </div>
-            <div className="terminal-file-row">
-              <span className="file-icon">📄</span>
               <a href="/resumes/gowtham_datascience.pdf" download="Gowtham_R_Gowda_DataScience_Resume.pdf" className="file-link">
                 gowtham_datascience.pdf
               </a>
@@ -72,7 +64,7 @@ function AboutPane({ isActive, onFocus }) {
           <div key={idx} className="row highlight">
             <div>
               <div className="label">{exp.title}</div>
-              <div style={{ fontSize: "11px", color: "var(--claude-haze-dim)" }}>
+              <div style={{ fontSize: "11px", color: "var(--claude-mist)" }}>
                 {exp.desc}
               </div>
             </div>
@@ -85,7 +77,7 @@ function AboutPane({ isActive, onFocus }) {
           <div key={idx} className="row highlight">
             <div>
               <div className="label">{edu.degree}</div>
-              <div style={{ fontSize: "11px", color: "var(--claude-haze-dim)" }}>
+              <div style={{ fontSize: "11px", color: "var(--claude-mist)" }}>
                 {edu.specialization}
               </div>
             </div>

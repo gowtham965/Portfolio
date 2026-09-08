@@ -19,7 +19,7 @@ A premium, interactive developer portfolio designed around the **Terminal Multip
 
 1.  **`[0] About`**: Introduction, bio, and background.
 2.  **`[1] Skills`**: Technical capabilities visualized in clean categorizations.
-3.  **`[2] Projects`**: Filterable grid displaying personal creations, code details, and deployment targets.
+3.  **`[2] Projects`**: Filterable grid displaying personal creations, code details, and deployment targets — including [Python Docs RAG](https://github.com/gowtham965/python-docs-rag), a hybrid-retrieval RAG Q&A system, and the [GitHub Issue Triage Agent](https://github.com/gowtham965/gh-issue-agent), a LangGraph-based patch-generation agent.
 
 ---
 
@@ -54,3 +54,10 @@ To get this project running on your computer:
     ```bash
     npm run preview
     ```
+
+---
+
+## 👤 Author
+
+**Gowtham Gowda** — AI Engineer, Bengaluru, India
+[LinkedIn](https://www.linkedin.com/in/gowthamgowda965/) · [GitHub](https://github.com/gowtham965)

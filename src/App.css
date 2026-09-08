@@ -34,19 +34,7 @@ header.navbar h1 {
   padding: 0.1rem 0.4rem;
   line-height: 1;
   cursor: pointer;
-  background: linear-gradient(
-    105deg,
-    var(--claude-cream) 0%,
-    var(--claude-coral) 22%,
-    var(--claude-gold)  42%,
-    var(--claude-sky)   62%,
-    var(--claude-moss)  82%,
-    var(--claude-cream) 100%
-  );
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
+  color: var(--claude-cream);
   transform-origin: center center;
   transform-style: preserve-3d;
   transition: transform 420ms cubic-bezier(0.2, 0.8, 0.2, 1),
