@@ -20,7 +20,7 @@ function Footer({ activePane, onSelectPane }) {
         ))}
       </span>
       <span>
-        gowthamgowda.dev
+        portfolio-gowtham965.vercel.app
       </span>
     </div>
   );

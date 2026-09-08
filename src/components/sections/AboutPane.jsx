@@ -39,26 +39,6 @@ function AboutPane({ isActive, onFocus }) {
       <div className="pane-body">
         <p className="bio-text">{bioDesc}</p>
 
-        <div className="section-title">Resumes</div>
-        <div className="terminal-resumes-container">
-          <div className="terminal-file-list">
-            <div className="terminal-file-row">
-              <span className="file-icon">📄</span>
-              <a href="/resumes/gowtham_datascience.pdf" download="Gowtham_R_Gowda_DataScience_Resume.pdf" className="file-link">
-                gowtham_datascience.pdf
-              </a>
-              <span className="role-tag">[data_science]</span>
-            </div>
-            <div className="terminal-file-row">
-              <span className="file-icon">📄</span>
-              <a href="/resumes/gowtham_fullstack.pdf" download="Gowtham_R_Gowda_FullStack_Resume.pdf" className="file-link">
-                gowtham_fullstack.pdf
-              </a>
-              <span className="role-tag">[full_stack]</span>
-            </div>
-          </div>
-        </div>
-
         <div className="section-title">Experience</div>
         {experiences.map((exp, idx) => (
           <div key={idx} className="row highlight">
