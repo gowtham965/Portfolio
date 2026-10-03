@@ -518,10 +518,19 @@ header.navbar nav a.nav-organic:focus-visible::after {
 
 /* Responsive collapse for screens less than 768px */
 @media (max-width: 768px) {
+  /* Stacked panes are taller than the screen, so the page itself scrolls */
+  html, body, #root {
+    height: auto;
+  }
+
+  body {
+    overflow-y: auto;
+  }
+
   .tmux-grid {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
-    overflow-y: auto;
+    overflow: visible;
     height: auto;
   }
 
@@ -530,13 +539,28 @@ header.navbar nav a.nav-organic:focus-visible::after {
   }
 
   .pane {
-    height: 380px;
+    height: auto;
     border-bottom: 1px solid var(--claude-border);
   }
 
+  .pane-body {
+    overflow: visible;
+  }
+
   .app-container {
-    overflow-y: auto;
+    min-height: 100vh;
     height: auto;
+    overflow: visible;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .row .value {
+    text-align: left;
+    white-space: normal;
+    margin-left: 0;
   }
 
   header.navbar {
