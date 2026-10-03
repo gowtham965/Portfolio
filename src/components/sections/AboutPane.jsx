@@ -7,19 +7,19 @@ const experiences = [
 const education = [
   {
     degree: "B.Tech in Computer Science and Engineering",
-    specialization: "Data Science Specialization (CGPA: 7.39)",
+    specialization: "Data Science Specialization",
     location: "Presidency University",
     duration: "2021–2025"
   },
   {
     degree: "Pre-University Course (PCMC)",
-    specialization: "Physics, Chemistry, Math, CS (Score: 83%)",
+    specialization: "Physics, Chemistry, Math, CS",
     location: "Chethana PU College, Yelahanka",
     duration: "2019–2021"
   },
   {
     degree: "Class X Secondary School",
-    specialization: "ICSE Syllabus (Score: 87%)",
+    specialization: "ICSE Syllabus",
     location: "Cauvery Primary and High School",
     duration: "2019"
   }
